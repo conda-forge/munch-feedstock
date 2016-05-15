@@ -5,7 +5,7 @@ Home: http://github.com/Infinidat/munch
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A dot-accessible dictionary (a la JavaScript objects).
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/munch-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/munch-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/munch-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/munch-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/munch-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/munch-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/munch/badges/version.svg)](https://anaconda.org/conda-forge/munch)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/munch/badges/downloads.svg)](https://anaconda.org/conda-forge/munch)
 
 
 Updating munch-feedstock
