@@ -1,34 +1,34 @@
 {% set version = "2.0.4" %}
 
 package:
-    name: munch
-    version: {{ version }}
+  name: munch
+  version: {{ version }}
 
 source:
-    fn: munch-{{ version }}.tar.gz
-    url: https://pypi.python.org/packages/source/m/munch/munch-{{ version }}.tar.gz
-    md5: 6fd6f748f5698c756e143f2be847d449
+  fn: munch-{{ version }}.tar.gz
+  url: https://github.com/Infinidat/munch/archive/{{ version }}.tar.gz
+  sha256: ec4f073cc6437787383a44f5e70148469abbc6123bc8798cd2443e7c5361c8ab
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - munch
+  imports:
+    - munch
 
 about:
-    home: http://github.com/Infinidat/munch
-    license: MIT License
-    summary: A dot-accessible dictionary (a la JavaScript objects).
+  home: http://github.com/Infinidat/munch
+  license: MIT
+  summary: 'A dot-accessible dictionary (a la JavaScript objects).'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
