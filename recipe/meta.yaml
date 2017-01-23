@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 package:
   name: munch
@@ -7,7 +7,7 @@ package:
 source:
   fn: munch-{{ version }}.tar.gz
   url: https://github.com/Infinidat/munch/archive/{{ version }}.tar.gz
-  sha256: ec4f073cc6437787383a44f5e70148469abbc6123bc8798cd2443e7c5361c8ab
+  sha256: b922be9ecfe51ef2cb6a15905c4eeca13540dace2e5324bbb15b54efdf7dd60f
 
 build:
   number: 0
@@ -27,6 +27,7 @@ test:
 about:
   home: http://github.com/Infinidat/munch
   license: MIT
+  license_file: LICENSE.txt
   summary: 'A dot-accessible dictionary (a la JavaScript objects).'
 
 extra:
