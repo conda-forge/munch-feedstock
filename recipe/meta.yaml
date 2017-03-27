@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: munch
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: munch-{{ version }}.tar.gz
-  url: https://github.com/Infinidat/munch/archive/{{ version }}.tar.gz
-  sha256: b922be9ecfe51ef2cb6a15905c4eeca13540dace2e5324bbb15b54efdf7dd60f
+  url: https://pypi.io/packages/source/m/munch/munch-{{ version }}.tar.gz
+  sha256: 648b650d1eb0173bd83c29f2eea2568b7591c1e05c87971387d170c71c6397e8
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
     - setuptools
   run:
     - python
+    - six
 
 test:
   imports:
