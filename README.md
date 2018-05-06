@@ -14,12 +14,15 @@ Summary: A dot-accessible dictionary (a la JavaScript objects).
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/munch-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/munch-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/munch-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/munch-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/munch/badges/version.svg)](https://anaconda.org/conda-forge/munch)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/munch/badges/downloads.svg)](https://anaconda.org/conda-forge/munch)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-munch-green.svg)](https://anaconda.org/conda-forge/munch) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/munch.svg)](https://anaconda.org/conda-forge/munch) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/munch.svg)](https://anaconda.org/conda-forge/munch) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/munch.svg)](https://anaconda.org/conda-forge/munch) |
 
 Installing munch
 ================
