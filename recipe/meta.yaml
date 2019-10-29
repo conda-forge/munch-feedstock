@@ -9,14 +9,16 @@ source:
   sha256: 16ffb7e93cdb18a51fc564b4582b9a78579590638dcbda424bc894ee2ea4f741
 
 build:
-  noarch: python
   number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
     - python
     - pip
+    - setuptools >=17.1
+    - pbr >=3.0
   run:
     - python
     - six
@@ -29,7 +31,7 @@ about:
   home: http://github.com/Infinidat/munch
   license: MIT
   license_file: LICENSE.txt
-  summary: 'A dot-accessible dictionary (a la JavaScript objects).'
+  summary: 'A dot-accessible dictionary (a la JavaScript objects)'
 
 extra:
   recipe-maintainers:
