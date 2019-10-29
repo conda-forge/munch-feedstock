@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A dot-accessible dictionary (a la JavaScript objects).
+Summary: A dot-accessible dictionary (a la JavaScript objects)
 
 
 
