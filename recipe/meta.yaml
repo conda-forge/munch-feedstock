@@ -21,6 +21,7 @@ requirements:
     - pbr >=3.0
   run:
     - python
+    - setuptools >=17.1
     - six
 
 test:
