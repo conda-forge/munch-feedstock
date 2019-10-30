@@ -1,4 +1,4 @@
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 
 package:
   name: munch
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/munch/munch-{{ version }}.tar.gz
-  sha256: 16ffb7e93cdb18a51fc564b4582b9a78579590638dcbda424bc894ee2ea4f741
+  sha256: 2d735f6f24d4dba3417fa448cae40c6e896ec1fdab6cdb5e6510999758a4dbd2
 
 build:
   number: 0
