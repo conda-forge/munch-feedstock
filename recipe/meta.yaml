@@ -1,4 +1,4 @@
-{% set version = "2.5.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: munch
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/munch/munch-{{ version }}.tar.gz
-  sha256: 2d735f6f24d4dba3417fa448cae40c6e896ec1fdab6cdb5e6510999758a4dbd2
+  sha256: 5284603030c00906d9d64d8108728c004fbeb91fc1c1e4caca342bc48f2a6dfd
 
 build:
   number: 0
@@ -14,7 +14,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - setuptools >=17.1
@@ -32,7 +32,7 @@ about:
   home: http://github.com/Infinidat/munch
   license: MIT
   license_file: LICENSE.txt
-  summary: 'A dot-accessible dictionary (a la JavaScript objects)'
+  summary: A dot-accessible dictionary (a la JavaScript objects)
 
 extra:
   recipe-maintainers:
