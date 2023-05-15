@@ -11,22 +11,25 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
-    - pip
-    - setuptools >=17.1
+    - python >=3.8
     - pbr >=3.0
+    - setuptools >=61
+    - pip
   run:
-    - python
-    - setuptools >=17.1
+    - python >=3.8
     - six
 
 test:
   imports:
     - munch
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://github.com/Infinidat/munch
