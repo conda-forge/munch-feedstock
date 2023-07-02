@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: munch
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/munch/munch-{{ version }}.tar.gz
-  sha256: 5284603030c00906d9d64d8108728c004fbeb91fc1c1e4caca342bc48f2a6dfd
+  sha256: 542cb151461263216a4e37c3fd9afc425feeaf38aaa3025cd2a981fadb422235
 
 build:
   number: 0
@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - six
 
 test:
   imports:
